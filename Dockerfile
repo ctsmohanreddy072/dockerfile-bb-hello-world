@@ -1,6 +1,6 @@
 #FROM busybox:latest
 #CMD ["echo", "hello world"]
-FROM microsoft/iis
+FROM microsoft/dotnet:latest
 
 #RUN powershell -NoProfile -Command Remove-Item -Recurse C:\inetpub\wwwroot\*
 
